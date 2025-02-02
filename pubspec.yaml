@@ -1,0 +1,58 @@
+name: test_db4
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  table_calendar: ^3.0.9
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^5.3.3
+  alarm: ^4.0.12
+  file_picker: ^5.2.4
+  provider: ^6.1.2
+  permission_handler: ^11.3.1
+  webview_flutter: ^4.10.0
+  geolocator: ^13.0.2
+  firebase_core: ^3.8.0
+  cloud_firestore: ^5.5.1
+  android_intent_plus: ^5.2.0
+  intl: ^0.19.0
+  timezone: ^0.10.0
+  flutter_local_notifications: ^18.0.1
+  flutter_timezone: ^3.0.1
+  fluttertoast: ^8.2.8
+  shared_preferences: ^2.3.3
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  flutter_typeahead: ^5.2.0
+  location: ^7.0.1
+  geocoding: ^3.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.2
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "./android/assets/icon/logoV3.png"
+  min_sdk_android: 23 
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "./android/assets/icon/logoV3.png"
+
+flutter:
+
+  uses-material-design: true
+
+ 
